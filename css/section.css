@@ -1,7 +1,20 @@
 .section{
-    margin: 10px 0;
+    margin-bottom: 10px;
     background: white;
     box-shadow: 0 0 5px #ddd;
+    
+}
+
+.section__container{
+    border-bottom: 1px solid #eee;
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+}
+
+@media (max-width: 767px) {
+    .section__conteiner {
+        grid-template-columns: 1fr;
+    }
 }
 
 .section__header{
@@ -9,9 +22,42 @@
     font-size: 20px;
     padding: 20px;
     margin: 0;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #eee;
 }
 
 .section__body{
     padding: 20px;
 }
+
+.section__buttons {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+}
+
+@media(max-width: 767px) {
+    .section__buttons {
+        grid-template-columns: 1fr;
+    }
+}
+
+.section__button--header {
+    color:teal;
+    border:none;
+    background-color: white;
+    font-size: 18px;
+    padding: 20px;
+    transition: 1s;
+}
+
+
+.section__button--header:hover{
+    color:hsl(180, 100%, 40%);
+}
+
+.section__button--hiddenAllDone:disabled{
+    color:#ccc
+}
+
+
+    
