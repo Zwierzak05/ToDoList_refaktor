@@ -13,6 +13,10 @@
     border-bottom: 1px solid #ddd;
 }
 
+.task__item--hidden{
+    display: none;
+}
+
 .task__button{
     border: none;
     color: white;
