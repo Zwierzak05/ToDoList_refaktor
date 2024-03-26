@@ -31,14 +31,15 @@
 }
 
 .section__buttons {
-  display: grid;
-  grid-template-columns: auto auto;
+  display: flex;
+  flex-wrap: wrap;
   padding: 20px;
 }
 
 @media (max-width: 767px) {
   .section__buttons {
-    grid-template-columns: 1fr;
+    flex-basis: 100%;
+    margin: 10px;
   }
 }
 
@@ -58,4 +59,5 @@
 
 .section__button--hiddenAllDone:disabled {
   color: #ccc;
+  cursor: not-allowed;
 }
