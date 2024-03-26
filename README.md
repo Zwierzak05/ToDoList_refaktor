@@ -1,7 +1,7 @@
 # ToDoList_refaktor
-This repository presents handy check list. The application is flexible, so it can be used on a variety of mobile devices, such as mobile phones , tablets and laptops.
+My task management website provides a simple yet efficient platform for creating and managing to-do lists. Users can easily add tasks, mark them as completed, and remove completed tasks from the list. Additionally, the website offers two convenient buttons for enhanced task management. The first button allows users to toggle between hiding and showing completed tasks, offering a clutter-free view. The second button enables users to mark all tasks as completed with just one click, streamlining the task completion process. With intuitive features and user-friendly interface, our website makes task management hassle-free and efficient.
 
-##Demo
+## Demo
 https://dawidkasza.github.io/ToDoList_refaktor/
 
 ## view
